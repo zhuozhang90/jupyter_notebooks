@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+nltk = "*"
+tweepy = "*"
+jupyter = "*"
+notebook = "*"
+bash-kernel = "*"
+octave-kernel = "*"
+cython = "*"
+pandas = "*"
+matplotlib = "*"
+scikit-learn = "*"
+scipy = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
